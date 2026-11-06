@@ -1,0 +1,1077 @@
+# Dutch (Netherlands) translation of EU Withdrawal Compliance.
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: EU Withdrawal Compliance 1.3.0\n"
+"Report-Msgid-Bugs-To: https://servicios.ayudawp.com\n"
+"POT-Creation-Date: 2026-05-06 12:33+0200\n"
+"PO-Revision-Date: 2026-11-06 12:00+0100\n"
+"Last-Translator: Translator\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: eu-withdrawal-compliance\n"
+
+#: eu-withdrawal-compliance.php:83
+msgid "[Sample template — review with a legal advisor before publishing.]"
+msgstr "[Voorbeeldsjabloon — laat deze tekst door een jurist beoordelen voordat u deze publiceert.]"
+
+#: eu-withdrawal-compliance.php:84
+msgid "You have a 14-day withdrawal period from the moment you receive your order to cancel your purchase, without giving any reason and without penalty, as established by EU Directive 2023/2673 and the consumer protection laws applicable in your country."
+msgstr "U heeft 14 dagen bedenktijd, te rekenen vanaf het moment waarop u uw bestelling ontvangt, om uw aankoop te herroepen zonder opgave van reden en zonder boete, zoals bepaald in EU-richtlijn 2023/2673 en de consumentenbeschermingswetgeving die in uw land van toepassing is."
+
+#: eu-withdrawal-compliance.php:85
+msgid "To exercise this right, fill in the form below. You will receive an automatic confirmation by email once your request is registered. The refund will be processed within the legal deadline that applies to your purchase."
+msgstr "Om dit recht uit te oefenen, vult u het onderstaande formulier in. Zodra uw verzoek is geregistreerd, ontvangt u automatisch een bevestiging per e-mail. De terugbetaling wordt verwerkt binnen de wettelijke termijn die voor uw aankoop geldt."
+
+#: eu-withdrawal-compliance.php:86
+msgid "Some products and services are excluded from the right of withdrawal (custom-made goods, perishables, sealed digital content downloaded with your express consent, hygiene-sealed items, etc.). Please review our terms and conditions for the full list of exceptions."
+msgstr "Sommige producten en diensten zijn uitgesloten van het herroepingsrecht (op maat gemaakte goederen, snel bederfelijke waren, verzegelde digitale inhoud die met uw uitdrukkelijke toestemming is gedownload, om hygiënische redenen verzegelde artikelen, enz.). Raadpleeg onze algemene voorwaarden voor de volledige lijst van uitzonderingen."
+
+#: eu-withdrawal-compliance.php:102 includes/functions-woocommerce.php:215
+#: includes/functions-emails-wc.php:70 includes/functions-emails-wc.php:77
+msgid "Right of withdrawal"
+msgstr "Herroepingsrecht"
+
+#: eu-withdrawal-compliance.php:211 includes/functions-settings.php:25
+msgid "Settings"
+msgstr "Instellingen"
+
+#: eu-withdrawal-compliance.php:216 includes/functions-cpt.php:25
+msgid "Withdrawals"
+msgstr "Herroepingen"
+
+#: eu-withdrawal-compliance.php:244
+msgid "EU Withdrawal Compliance is active."
+msgstr "EU Withdrawal Compliance is actief."
+
+#: eu-withdrawal-compliance.php:248
+msgid "A \"Right of withdrawal\" page with a sample legal template was created automatically. Review the text, link the page from your footer and configure the notification email."
+msgstr "Er is automatisch een pagina \"Herroepingsrecht\" met een voorbeeld van een juridische tekst aangemaakt. Controleer de tekst, link de pagina vanuit uw footer en configureer de meldings-e-mail."
+
+#: eu-withdrawal-compliance.php:253
+msgid "Open settings"
+msgstr "Instellingen openen"
+
+#: eu-withdrawal-compliance.php:257
+msgid "Edit withdrawal page"
+msgstr "Herroepingspagina bewerken"
+
+#: includes/functions-admin.php:22
+msgid "Reference"
+msgstr "Referentie"
+
+#: includes/functions-admin.php:23 includes/functions-emails.php:98
+msgid "Customer"
+msgstr "Klant"
+
+#: includes/functions-admin.php:24 includes/functions-admin.php:142
+#: includes/functions-emails.php:99
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/functions-admin.php:25 includes/functions-emails.php:43
+#: includes/functions-emails.php:100 includes/functions-emails.php:178
+msgid "Order"
+msgstr "Bestelling"
+
+#: includes/functions-admin.php:26 includes/functions-admin.php:145
+#: includes/functions-emails.php:44 includes/functions-emails.php:101
+msgid "Scope"
+msgstr "Omvang"
+
+#: includes/functions-admin.php:27 includes/functions-admin.php:124
+msgid "Status"
+msgstr "Status"
+
+#: includes/functions-admin.php:28
+msgid "Date"
+msgstr "Datum"
+
+#: includes/functions-admin.php:81
+msgid "Partial"
+msgstr "Gedeeltelijk"
+
+#: includes/functions-admin.php:82
+msgid "Full"
+msgstr "Volledig"
+
+#: includes/functions-admin.php:89 includes/functions-admin.php:95
+#: includes/functions-admin.php:183 includes/functions-woocommerce.php:426
+msgid "Pending"
+msgstr "In afwachting"
+
+#: includes/functions-admin.php:90 includes/functions-admin.php:184
+#: includes/functions-woocommerce.php:427
+msgid "Accepted"
+msgstr "Geaccepteerd"
+
+#: includes/functions-admin.php:91 includes/functions-admin.php:185
+#: includes/functions-woocommerce.php:428
+msgid "Rejected"
+msgstr "Afgewezen"
+
+#: includes/functions-admin.php:92 includes/functions-admin.php:186
+#: includes/functions-woocommerce.php:429
+msgid "Completed"
+msgstr "Afgerond"
+
+#: includes/functions-admin.php:115
+msgid "Withdrawal request details"
+msgstr "Details van het herroepingsverzoek"
+
+#: includes/functions-admin.php:141
+msgid "Customer name"
+msgstr "Naam klant"
+
+#: includes/functions-admin.php:143 includes/functions-form.php:90
+msgid "Order number"
+msgstr "Bestelnummer"
+
+#: includes/functions-admin.php:144 includes/functions-form.php:96
+msgid "Order date"
+msgstr "Besteldatum"
+
+#: includes/functions-admin.php:146
+msgid "IP address"
+msgstr "IP-adres"
+
+#: includes/functions-admin.php:147
+msgid "User agent"
+msgstr "User-Agent"
+
+#: includes/functions-admin.php:164
+msgid "Additional information"
+msgstr "Aanvullende informatie"
+
+#: includes/functions-admin.php:190
+msgid "Set status"
+msgstr "Status instellen"
+
+#: includes/functions-admin.php:204
+msgid "Track the internal handling state of this request."
+msgstr "Houd de interne afhandelingsstatus van dit verzoek bij."
+
+#: includes/functions-admin.php:207
+msgid "Comments for the customer"
+msgstr "Opmerkingen voor de klant"
+
+#: includes/functions-admin.php:208
+msgid "Will be included in the email sent to the customer when the status changes."
+msgstr "Wordt opgenomen in de e-mail die naar de klant wordt gestuurd wanneer de status wijzigt."
+
+#: includes/functions-admin.php:210
+msgid "Required when rejecting a request, optional when marking as completed. Not stored — sent in the email and saved to the order note."
+msgstr "Verplicht bij het afwijzen van een verzoek, optioneel bij het markeren als afgerond. Wordt niet opgeslagen — wordt verzonden in de e-mail en bewaard in de bestelnotitie."
+
+#: includes/functions-admin.php:269
+msgid "A comment is required when rejecting a withdrawal request. Status not changed."
+msgstr "Bij het afwijzen van een herroepingsverzoek is een opmerking verplicht. Status niet gewijzigd."
+
+#: includes/functions-admin.php:360
+msgid "Mark as accepted"
+msgstr "Markeren als geaccepteerd"
+
+#: includes/functions-admin.php:361
+msgid "Mark as completed"
+msgstr "Markeren als afgerond"
+
+#: includes/functions-admin.php:451 includes/functions-woocommerce.php:149
+msgid "accepted"
+msgstr "geaccepteerd"
+
+#: includes/functions-admin.php:452 includes/functions-woocommerce.php:151
+msgid "completed"
+msgstr "afgerond"
+
+#: includes/functions-admin.php:463
+#, php-format
+msgid "%1$d withdrawal request marked as %2$s."
+msgid_plural "%1$d withdrawal requests marked as %2$s."
+msgstr[0] "%1$d herroepingsverzoek gemarkeerd als %2$s."
+msgstr[1] "%1$d herroepingsverzoeken gemarkeerd als %2$s."
+
+#: includes/functions-settings.php:24
+msgid "EU Withdrawal"
+msgstr "EU-herroeping"
+
+#: includes/functions-settings.php:29
+msgid "EU Withdrawal settings"
+msgstr "Instellingen EU-herroeping"
+
+#: includes/functions-settings.php:65
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/functions-settings.php:72
+msgid "Notification email"
+msgstr "Meldings-e-mail"
+
+#: includes/functions-settings.php:80
+msgid "Withdrawal page"
+msgstr "Herroepingspagina"
+
+#: includes/functions-settings.php:93
+msgid "Configure where notifications are sent and which page hosts the withdrawal form."
+msgstr "Stel in waar meldingen naartoe worden gestuurd en op welke pagina het herroepingsformulier staat."
+
+#: includes/functions-settings.php:108
+msgid "Address that receives a notification each time a customer submits a withdrawal request."
+msgstr "Adres dat een melding ontvangt telkens wanneer een klant een herroepingsverzoek indient."
+
+#: includes/functions-settings.php:122
+msgid "— Select a page —"
+msgstr "— Selecteer een pagina —"
+
+#: includes/functions-settings.php:146
+msgid "Page where the withdrawal form is published. Make sure it includes the [ayudawp_withdrawal_form] shortcode."
+msgstr "Pagina waarop het herroepingsformulier wordt gepubliceerd. Zorg ervoor dat de shortcode [ayudawp_withdrawal_form] erop staat."
+
+#: includes/functions-settings.php:168
+msgid "Withdrawal form public URL:"
+msgstr "Openbare URL van het herroepingsformulier:"
+
+#: includes/functions-settings.php:179
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: includes/functions-settings.php:185
+msgid "How to use this plugin"
+msgstr "Zo gebruikt u deze plugin"
+
+#: includes/functions-settings.php:187
+msgid "You can place the withdrawal form anywhere on your site using the following shortcode:"
+msgstr "U kunt het herroepingsformulier overal op uw site plaatsen met de volgende shortcode:"
+
+#. translators: %s: WooCommerce My Account withdrawal endpoint URL.
+#: includes/functions-settings.php:196
+#, php-format
+msgid "WooCommerce customers can also access the form from their account at: %s"
+msgstr "WooCommerce-klanten hebben ook toegang tot het formulier vanuit hun account op: %s"
+
+#: includes/functions-settings.php:206
+msgid "For maximum visibility, link the withdrawal page from your footer next to your privacy policy and terms of service. Customers must be able to find it within a couple of clicks from any page on the site."
+msgstr "Voor maximale zichtbaarheid linkt u de herroepingspagina vanuit uw footer, naast uw privacybeleid en algemene voorwaarden. Klanten moeten de pagina vanaf elke pagina van de site binnen een paar klikken kunnen vinden."
+
+#: includes/functions-settings.php:214
+msgid "About the EU withdrawal function"
+msgstr "Over de Europese herroepingsfunctie"
+
+#: includes/functions-settings.php:218
+msgid "This plugin implements the digital withdrawal function required by <a href=\"https://eur-lex.europa.eu/eli/dir/2023/2673/oj\" target=\"_blank\" rel=\"noopener\">EU Directive 2023/2673</a>, applicable to all EU online retailers from June 19, 2026."
+msgstr "Deze plugin implementeert de digitale herroepingsfunctie die vereist is door <a href=\"https://eur-lex.europa.eu/eli/dir/2023/2673/oj\" target=\"_blank\" rel=\"noopener\">EU-richtlijn 2023/2673</a>, van toepassing op alle Europese online verkopers vanaf 19 juni 2026."
+
+#: includes/class-aeuw-promo-banner.php:54
+msgid "Complete WordPress security"
+msgstr "Complete WordPress-beveiliging"
+
+#: includes/class-aeuw-promo-banner.php:55
+msgid "All-in-one security plugin: firewall, login protection, security headers, 2FA, file integrity monitoring, and activity logging."
+msgstr "Alles-in-één beveiligingsplugin: firewall, inlogbeveiliging, security headers, 2FA, bewaking van bestandsintegriteit en activiteitenlogboek."
+
+#: includes/class-aeuw-promo-banner.php:56
+msgid "Install Vigilant"
+msgstr "Vigilant installeren"
+
+#: includes/class-aeuw-promo-banner.php:60
+msgid "Restrict site access"
+msgstr "Toegang tot de site beperken"
+
+#: includes/class-aeuw-promo-banner.php:61
+msgid "Force visitors to log in before accessing your site with extensive exception controls for pages, posts, and user roles."
+msgstr "Dwing bezoekers in te loggen voordat ze uw site kunnen bekijken, met uitgebreide uitzonderingsmogelijkheden voor pagina's, berichten en gebruikersrollen."
+
+#: includes/class-aeuw-promo-banner.php:62
+msgid "Install Gozer"
+msgstr "Gozer installeren"
+
+#: includes/class-aeuw-promo-banner.php:66
+msgid "Monitor AI crawler activity"
+msgstr "AI-crawleractiviteit monitoren"
+
+#: includes/class-aeuw-promo-banner.php:67
+msgid "Track which AI bots visit your site, analyze their behavior, and take control with blocking rules and robots.txt management."
+msgstr "Zie welke AI-bots uw site bezoeken, analyseer hun gedrag en neem de controle met blokkeerregels en beheer van robots.txt."
+
+#: includes/class-aeuw-promo-banner.php:68
+msgid "Install VigIA"
+msgstr "VigIA installeren"
+
+#: includes/class-aeuw-promo-banner.php:72
+msgid "Boost your AI presence"
+msgstr "Vergroot uw AI-aanwezigheid"
+
+#: includes/class-aeuw-promo-banner.php:73
+msgid "Add social sharing and AI summarize buttons. Help visitors share your content and let AIs learn from your site while getting backlinks."
+msgstr "Voeg knoppen voor delen op social media en AI-samenvattingen toe. Help bezoekers uw content te delen en laat AI's van uw site leren, terwijl u backlinks verzamelt."
+
+#: includes/class-aeuw-promo-banner.php:74
+msgid "Install AI Share & Summarize"
+msgstr "AI Share & Summarize installeren"
+
+#: includes/class-aeuw-promo-banner.php:78
+msgid "Control AI content usage"
+msgstr "Bepaal hoe AI uw content gebruikt"
+
+#: includes/class-aeuw-promo-banner.php:79
+msgid "Cloudflare-endorsed plugin to define how AI systems can use your content: for training, search results, or both."
+msgstr "Door Cloudflare ondersteunde plugin om te bepalen hoe AI-systemen uw content mogen gebruiken: voor training, zoekresultaten of beide."
+
+#: includes/class-aeuw-promo-banner.php:80
+msgid "Install AI Content Signals"
+msgstr "AI Content Signals installeren"
+
+#: includes/class-aeuw-promo-banner.php:84
+msgid "Speed up your WordPress"
+msgstr "Maak uw WordPress sneller"
+
+#: includes/class-aeuw-promo-banner.php:85
+msgid "Comprehensive performance optimizations: critical CSS, lazy loading, cache rules, and 30+ tweaks with zero configuration."
+msgstr "Uitgebreide prestatieoptimalisaties: kritieke CSS, lazy loading, cacheregels en meer dan 30 tweaks zonder configuratie."
+
+#: includes/class-aeuw-promo-banner.php:86
+msgid "Install Zero Config Performance"
+msgstr "Zero Config Performance installeren"
+
+#: includes/class-aeuw-promo-banner.php:90
+msgid "Back to Classic Editor"
+msgstr "Terug naar de klassieke editor"
+
+#: includes/class-aeuw-promo-banner.php:91
+msgid "Completely remove Gutenberg, FSE styles, and block widgets. Restore the classic editing experience with better performance."
+msgstr "Verwijder Gutenberg, FSE-stijlen en blokwidgets volledig. Herstel de klassieke bewerkingservaring met betere prestaties."
+
+#: includes/class-aeuw-promo-banner.php:92
+msgid "Install No Gutenberg"
+msgstr "No Gutenberg installeren"
+
+#: includes/class-aeuw-promo-banner.php:96
+msgid "Development toolkit"
+msgstr "Ontwikkeltoolkit"
+
+#: includes/class-aeuw-promo-banner.php:97
+msgid "Bypass all caching during development. Auto-detects cache plugins, enables debug mode, and includes maintenance screen."
+msgstr "Omzeil alle caching tijdens de ontwikkeling. Detecteert automatisch cacheplugins, schakelt de debugmodus in en bevat een onderhoudsscherm."
+
+#: includes/class-aeuw-promo-banner.php:98
+msgid "Install Anti-Cache Kit"
+msgstr "Anti-Cache Kit installeren"
+
+#: includes/class-aeuw-promo-banner.php:102
+msgid "Fix customer names"
+msgstr "Klantnamen corrigeren"
+
+#: includes/class-aeuw-promo-banner.php:103
+msgid "Auto-capitalize names and addresses in WordPress and WooCommerce. Keep invoices and reports professionally formatted."
+msgstr "Zet namen en adressen in WordPress en WooCommerce automatisch met hoofdletters. Houd facturen en rapporten professioneel opgemaakt."
+
+#: includes/class-aeuw-promo-banner.php:104
+msgid "Install Auto Capitalize"
+msgstr "Auto Capitalize installeren"
+
+#: includes/class-aeuw-promo-banner.php:108
+msgid "Clean Action Scheduler"
+msgstr "Action Scheduler opschonen"
+
+#: includes/class-aeuw-promo-banner.php:109
+msgid "Remove millions of completed, failed, and old actions from WooCommerce Action Scheduler. Reduce database size instantly."
+msgstr "Verwijder miljoenen voltooide, mislukte en oude acties uit WooCommerce Action Scheduler. Verklein de database direct."
+
+#: includes/class-aeuw-promo-banner.php:110
+msgid "Install Scheduler Cleaner"
+msgstr "Scheduler Cleaner installeren"
+
+#: includes/class-aeuw-promo-banner.php:114
+msgid "Customize your sitemap"
+msgstr "Pas uw sitemap aan"
+
+#: includes/class-aeuw-promo-banner.php:115
+msgid "Control WordPress native sitemap: exclude post types, taxonomies, specific posts, and authors. No bloat, just options."
+msgstr "Beheer de native WordPress-sitemap: sluit berichttypen, taxonomieën, specifieke berichten en auteurs uit. Geen overbodige toevoegingen, alleen opties."
+
+#: includes/class-aeuw-promo-banner.php:116
+msgid "Install Sitemap Customizer"
+msgstr "Sitemap Customizer installeren"
+
+#: includes/class-aeuw-promo-banner.php:120
+msgid "Control post visibility"
+msgstr "Bepaal de zichtbaarheid van berichten"
+
+#: includes/class-aeuw-promo-banner.php:121
+msgid "Hide posts from homepage, archives, feeds, or REST API while keeping them accessible via direct URL."
+msgstr "Verberg berichten op de homepage, in archieven, feeds of de REST API, terwijl ze bereikbaar blijven via de directe URL."
+
+#: includes/class-aeuw-promo-banner.php:122
+msgid "Install Post Visibility"
+msgstr "Post Visibility installeren"
+
+#: includes/class-aeuw-promo-banner.php:126
+msgid "Smart widget display"
+msgstr "Slimme weergave van widgets"
+
+#: includes/class-aeuw-promo-banner.php:127
+msgid "Show or hide widgets based on pages, post types, categories, user roles, and more. Works with any theme."
+msgstr "Toon of verberg widgets op basis van pagina's, berichttypen, categorieën, gebruikersrollen en meer. Werkt met elk thema."
+
+#: includes/class-aeuw-promo-banner.php:128
+msgid "Install Widget Visibility"
+msgstr "Widget Visibility installeren"
+
+#: includes/class-aeuw-promo-banner.php:132
+msgid "Search & replace in blocks"
+msgstr "Zoeken en vervangen in blokken"
+
+#: includes/class-aeuw-promo-banner.php:133
+msgid "Find and replace text across all your Gutenberg blocks. Bulk edit content without touching the database directly."
+msgstr "Zoek en vervang tekst in al uw Gutenberg-blokken. Bewerk content in bulk zonder rechtstreeks in de database te werken."
+
+#: includes/class-aeuw-promo-banner.php:134
+msgid "Install Search Replace Blocks"
+msgstr "Search Replace Blocks installeren"
+
+#: includes/class-aeuw-promo-banner.php:138
+msgid "Better read more links"
+msgstr "Betere \"lees meer\"-links"
+
+#: includes/class-aeuw-promo-banner.php:139
+msgid "Customize excerpt \"read more\" links with buttons, custom text, and nofollow option. Improve CTR and SEO."
+msgstr "Pas de \"lees meer\"-links van uittreksels aan met knoppen, eigen tekst en een nofollow-optie. Verbeter de CTR en SEO."
+
+#: includes/class-aeuw-promo-banner.php:140
+msgid "Install SEO Read More"
+msgstr "SEO Read More installeren"
+
+#: includes/class-aeuw-promo-banner.php:144
+msgid "Cleaner variable prices"
+msgstr "Overzichtelijkere variabele prijzen"
+
+#: includes/class-aeuw-promo-banner.php:145
+msgid "Display only the lowest price for WooCommerce variable products instead of confusing price ranges."
+msgstr "Toon bij variabele WooCommerce-producten alleen de laagste prijs in plaats van verwarrende prijsbereiken."
+
+#: includes/class-aeuw-promo-banner.php:146
+msgid "Install Lowest Price"
+msgstr "Lowest Price installeren"
+
+#: includes/class-aeuw-promo-banner.php:150
+msgid "Schedule sale prices"
+msgstr "Plan actieprijzen"
+
+#: includes/class-aeuw-promo-banner.php:151
+msgid "Set multiple future sale prices for WooCommerce products. Plan promotions in advance with start and end dates."
+msgstr "Stel meerdere toekomstige actieprijzen in voor WooCommerce-producten. Plan promoties vooraf met start- en einddatums."
+
+#: includes/class-aeuw-promo-banner.php:152
+msgid "Install Sale Scheduler"
+msgstr "Sale Scheduler installeren"
+
+#: includes/class-aeuw-promo-banner.php:156
+msgid "Simplify store management"
+msgstr "Vereenvoudig het winkelbeheer"
+
+#: includes/class-aeuw-promo-banner.php:157
+msgid "Clean up WordPress admin for Store Managers. Hide unnecessary menus, keep only orders, products, and customers, plus quick access shortcuts."
+msgstr "Maak het WordPress-beheer overzichtelijk voor winkelbeheerders. Verberg onnodige menu's, houd alleen bestellingen, producten en klanten over, plus snelkoppelingen."
+
+#: includes/class-aeuw-promo-banner.php:158
+msgid "Install Easy Store"
+msgstr "Easy Store installeren"
+
+#: includes/class-aeuw-promo-banner.php:162
+msgid "Lightbox for Divi"
+msgstr "Lightbox voor Divi"
+
+#: includes/class-aeuw-promo-banner.php:163
+msgid "Add native lightbox functionality to Divi theme images. No jQuery, fast loading, fully customizable."
+msgstr "Voeg native lightbox-functionaliteit toe aan afbeeldingen in het Divi-thema. Geen jQuery, snel laden, volledig aanpasbaar."
+
+#: includes/class-aeuw-promo-banner.php:164
+msgid "Install Divi Lightbox"
+msgstr "Divi Lightbox installeren"
+
+#: includes/class-aeuw-promo-banner.php:168
+msgid "Show visitors what is coming up next"
+msgstr "Laat bezoekers zien wat er aankomt"
+
+#: includes/class-aeuw-promo-banner.php:169
+msgid "Display your scheduled and future posts on the frontend to gain and retain visits."
+msgstr "Toon uw geplande en toekomstige berichten op de frontend om bezoeken te winnen en te behouden."
+
+#: includes/class-aeuw-promo-banner.php:170
+msgid "Install Scheduled Posts Showcase"
+msgstr "Scheduled Posts Showcase installeren"
+
+#: includes/class-aeuw-promo-banner.php:174
+msgid "Custom Dashboard News"
+msgstr "Eigen dashboardnieuws"
+
+#: includes/class-aeuw-promo-banner.php:175
+msgid "Add your own custom feeds and links to the news and events dashboard widget and replace WordPress default one."
+msgstr "Voeg uw eigen feeds en links toe aan de widget voor nieuws en evenementen op het dashboard en vervang de standaardwidget van WordPress."
+
+#: includes/class-aeuw-promo-banner.php:176
+msgid "Install Periscope"
+msgstr "Periscope installeren"
+
+#: includes/class-aeuw-promo-banner.php:180
+msgid "Control search indexing"
+msgstr "Beheer de indexering door zoekmachines"
+
+#: includes/class-aeuw-promo-banner.php:181
+msgid "Tell search engines what not to index. Apply noindex per post, page, or entire post types with simple override controls."
+msgstr "Geef zoekmachines aan wat ze niet mogen indexeren. Pas noindex toe per bericht, pagina of complete berichttypen met eenvoudige overschrijfopties."
+
+#: includes/class-aeuw-promo-banner.php:182
+msgid "Install NoIndexer"
+msgstr "NoIndexer installeren"
+
+#: includes/class-aeuw-promo-banner.php:186
+msgid "Reduce WordPress Fat"
+msgstr "Verminder de WordPress-ballast"
+
+#: includes/class-aeuw-promo-banner.php:187
+msgid "Put your WordPress on a diet. Disable unnecessary default features to improve performance and reduce bloat."
+msgstr "Zet uw WordPress op dieet. Schakel onnodige standaardfuncties uit om de prestaties te verbeteren en overbodige code te verminderen."
+
+#: includes/class-aeuw-promo-banner.php:188
+msgid "Install DietPress"
+msgstr "DietPress installeren"
+
+#: includes/class-aeuw-promo-banner.php:202
+msgid "Need help with your website?"
+msgstr "Hulp nodig met uw website?"
+
+#: includes/class-aeuw-promo-banner.php:203
+msgid "Professional WordPress maintenance: security monitoring, regular backups, performance optimization, and priority support."
+msgstr "Professioneel WordPress-onderhoud: beveiligingsmonitoring, regelmatige back-ups, prestatieoptimalisatie en voorrangsondersteuning."
+
+#: includes/class-aeuw-promo-banner.php:204
+#: includes/class-aeuw-promo-banner.php:232
+msgid "Learn more"
+msgstr "Meer informatie"
+
+#: includes/class-aeuw-promo-banner.php:209
+msgid "WordPress consultancy"
+msgstr "WordPress-advies"
+
+#: includes/class-aeuw-promo-banner.php:210
+msgid "One-on-one online sessions to solve your WordPress doubts, get expert advice, and make better decisions for your project."
+msgstr "Persoonlijke online sessies om uw WordPress-vragen op te lossen, deskundig advies te krijgen en betere beslissingen voor uw project te nemen."
+
+#: includes/class-aeuw-promo-banner.php:211
+msgid "Book a session"
+msgstr "Een sessie boeken"
+
+#: includes/class-aeuw-promo-banner.php:216
+msgid "Hacked website?"
+msgstr "Website gehackt?"
+
+#: includes/class-aeuw-promo-banner.php:217
+msgid "Fast recovery service for compromised WordPress sites. We clean malware, fix vulnerabilities, and restore your site security."
+msgstr "Snelle herstelservice voor gehackte WordPress-sites. Wij verwijderen malware, verhelpen kwetsbaarheden en herstellen de beveiliging van uw site."
+
+#: includes/class-aeuw-promo-banner.php:218
+msgid "Get help now"
+msgstr "Nu hulp krijgen"
+
+#: includes/class-aeuw-promo-banner.php:223
+msgid "Custom development"
+msgstr "Maatwerkontwikkeling"
+
+#: includes/class-aeuw-promo-banner.php:224
+msgid "Need a custom plugin, theme modifications, or specific functionality? We build tailored WordPress solutions for your needs."
+msgstr "Heeft u een eigen plugin, thema-aanpassingen of specifieke functionaliteit nodig? Wij bouwen WordPress-oplossingen op maat."
+
+#: includes/class-aeuw-promo-banner.php:225
+msgid "Request a quote"
+msgstr "Offerte aanvragen"
+
+#: includes/class-aeuw-promo-banner.php:230
+msgid "Hosting built for WordPress"
+msgstr "Hosting speciaal voor WordPress"
+
+#: includes/class-aeuw-promo-banner.php:231
+msgid "Google Cloud servers, automatic geo-located daily backups, and 24/7 expert support. Speed, security, and migration tools included."
+msgstr "Google Cloud-servers, automatische dagelijkse back-ups op geografisch gespreide locaties en 24/7 deskundige ondersteuning. Snelheid, beveiliging en migratietools inbegrepen."
+
+#. translators: SiteGround affiliate URL. Change this URL in translations to use a localized landing page.
+#: includes/class-aeuw-promo-banner.php:234
+msgid "https://stgrnd.co/telladowpbox"
+msgstr "https://stgrnd.co/telladowpbox"
+
+#: includes/class-aeuw-promo-banner.php:300
+msgid "Starter kit for your site"
+msgstr "Starterskit voor uw site"
+
+#: includes/functions-form.php:42
+msgid "We have received your withdrawal request. You will get a confirmation email shortly."
+msgstr "Wij hebben uw herroepingsverzoek ontvangen. U ontvangt binnenkort een bevestiging per e-mail."
+
+#: includes/functions-form.php:59
+msgid "Use this form to exercise your withdrawal right under applicable EU consumer protection law. We will process your request and confirm by email within 24 hours."
+msgstr "Gebruik dit formulier om uw herroepingsrecht uit te oefenen op grond van de toepasselijke Europese consumentenbeschermingswetgeving. Wij verwerken uw verzoek en bevestigen dit binnen 24 uur per e-mail."
+
+#: includes/functions-form.php:75
+msgid "Leave this field empty"
+msgstr "Laat dit veld leeg"
+
+#: includes/functions-form.php:80
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: includes/functions-form.php:85
+msgid "Email used in the order"
+msgstr "E-mailadres dat bij de bestelling is gebruikt"
+
+#: includes/functions-form.php:92
+msgid "You can find it in the confirmation email we sent you."
+msgstr "U vindt dit in de bevestigingsmail die wij u hebben gestuurd."
+
+#: includes/functions-form.php:101
+msgid "Scope of the withdrawal"
+msgstr "Omvang van de herroeping"
+
+#: includes/functions-form.php:103
+msgid "Full order"
+msgstr "Volledige bestelling"
+
+#: includes/functions-form.php:104
+msgid "Specific products only"
+msgstr "Alleen specifieke producten"
+
+#: includes/functions-form.php:109
+msgid "Affected products / additional information"
+msgstr "Betreffende producten / aanvullende informatie"
+
+#: includes/functions-form.php:111
+msgid "If you have selected partial withdrawal, list the products affected here."
+msgstr "Als u voor gedeeltelijke herroeping heeft gekozen, vermeld hier dan de betreffende producten."
+
+#. translators: %s: privacy policy URL.
+#: includes/functions-form.php:127
+#, php-format
+msgid "I have read and accept the <a href=\"%s\" target=\"_blank\" rel=\"noopener\">privacy policy</a>."
+msgstr "Ik heb het <a href=\"%s\" target=\"_blank\" rel=\"noopener\">privacybeleid</a> gelezen en ga hiermee akkoord."
+
+#: includes/functions-form.php:139
+msgid "I confirm that the information provided is correct."
+msgstr "Ik bevestig dat de verstrekte gegevens juist zijn."
+
+#: includes/functions-form.php:147
+msgid "Exercise withdrawal right"
+msgstr "Overeenkomst herroepen"
+
+#: includes/functions-form.php:164
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "De beveiligingscontrole is mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: includes/functions-form.php:165
+msgid "Your request looks like spam and was rejected."
+msgstr "Uw verzoek lijkt op spam en is geweigerd."
+
+#: includes/functions-form.php:166
+msgid "Some required fields are missing. Please fill them in."
+msgstr "Enkele verplichte velden ontbreken. Vul ze in."
+
+#: includes/functions-form.php:167
+msgid "The email address is not valid."
+msgstr "Het e-mailadres is ongeldig."
+
+#: includes/functions-form.php:168
+msgid "We could not match this email with the order number provided."
+msgstr "Wij konden dit e-mailadres niet koppelen aan het opgegeven bestelnummer."
+
+#: includes/functions-form.php:169
+msgid "The 14-day withdrawal period has already expired for this order."
+msgstr "De bedenktijd van 14 dagen voor deze bestelling is al verstreken."
+
+#: includes/functions-form.php:170
+msgid "An error occurred. Please try again later."
+msgstr "Er is een fout opgetreden. Probeer het later opnieuw."
+
+#: includes/functions-woocommerce.php:111
+msgid "partial"
+msgstr "gedeeltelijk"
+
+#: includes/functions-woocommerce.php:112
+msgid "full"
+msgstr "volledig"
+
+#. translators: 1: scope label, 2: details, 3: log ID.
+#: includes/functions-woocommerce.php:116
+#, php-format
+msgid "EU withdrawal request received (%1$s). Details: %2$s. Log ID: #%3$d"
+msgstr "EU-herroepingsverzoek ontvangen (%1$s). Details: %2$s. Logboek-ID: #%3$d"
+
+#: includes/functions-woocommerce.php:148
+msgid "pending"
+msgstr "in afwachting"
+
+#: includes/functions-woocommerce.php:150
+msgid "rejected"
+msgstr "afgewezen"
+
+#. translators: 1: status label, 2: log ID.
+#: includes/functions-woocommerce.php:158
+#, php-format
+msgid "EU withdrawal request %1$s. Log ID: #%2$d"
+msgstr "EU-herroepingsverzoek %1$s. Logboek-ID: #%2$d"
+
+#. translators: %s: admin comment.
+#: includes/functions-woocommerce.php:166
+#, php-format
+msgid "Comment: %s"
+msgstr "Opmerking: %s"
+
+#: includes/functions-woocommerce.php:274
+msgid "Withdraw"
+msgstr "Herroepen"
+
+#: includes/functions-woocommerce.php:360
+#: includes/functions-woocommerce.php:366
+msgid "Withdrawal"
+msgstr "Herroeping"
+
+#: includes/functions-woocommerce.php:419
+msgid "No withdrawal request"
+msgstr "Geen herroepingsverzoek"
+
+#: includes/functions-cpt.php:21
+msgctxt "post type general name"
+msgid "Withdrawals"
+msgstr "Herroepingen"
+
+#: includes/functions-cpt.php:22
+msgctxt "post type singular name"
+msgid "Withdrawal"
+msgstr "Herroeping"
+
+#: includes/functions-cpt.php:23
+msgctxt "admin menu"
+msgid "Withdrawals"
+msgstr "Herroepingen"
+
+#: includes/functions-cpt.php:24
+msgctxt "add new on admin bar"
+msgid "Withdrawal"
+msgstr "Herroeping"
+
+#: includes/functions-cpt.php:26
+msgid "View withdrawal"
+msgstr "Herroeping bekijken"
+
+#: includes/functions-cpt.php:27
+msgid "Search withdrawals"
+msgstr "Herroepingen zoeken"
+
+#: includes/functions-cpt.php:28
+msgid "No withdrawals found."
+msgstr "Geen herroepingen gevonden."
+
+#: includes/functions-cpt.php:29
+msgid "No withdrawals in Trash."
+msgstr "Geen herroepingen in de prullenbak."
+
+#: includes/functions-cpt.php:69
+msgctxt "withdrawal status"
+msgid "Processed"
+msgstr "Verwerkt"
+
+#: includes/functions-cpt.php:77
+#, php-format
+msgid "Processed <span class=\"count\">(%s)</span>"
+msgid_plural "Processed <span class=\"count\">(%s)</span>"
+msgstr[0] "Verwerkt <span class=\"count\">(%s)</span>"
+msgstr[1] "Verwerkt <span class=\"count\">(%s)</span>"
+
+#: includes/functions-emails-wc.php:71
+msgid "You have 14 days from receipt to exercise your withdrawal right without giving any reason. To do so, use our online withdrawal function:"
+msgstr "U heeft 14 dagen na ontvangst om uw herroepingsrecht uit te oefenen zonder opgave van reden. Gebruik hiervoor onze online herroepingsfunctie:"
+
+#: includes/functions-emails-wc.php:78
+msgid "You have 14 days from receipt to exercise your withdrawal right without giving any reason."
+msgstr "U heeft 14 dagen na ontvangst om uw herroepingsrecht uit te oefenen zonder opgave van reden."
+
+#: includes/functions-emails-wc.php:81
+msgid "Exercise withdrawal right here"
+msgstr "Hier uw herroepingsrecht uitoefenen"
+
+#. translators: %s: site name.
+#: includes/functions-emails.php:26
+#, php-format
+msgid "[%s] We received your withdrawal request"
+msgstr "[%s] Wij hebben uw herroepingsverzoek ontvangen"
+
+#: includes/functions-emails.php:31
+msgid "Partial withdrawal (specific products only)"
+msgstr "Gedeeltelijke herroeping (alleen specifieke producten)"
+
+#: includes/functions-emails.php:32 includes/functions-emails.php:91
+msgid "Full withdrawal"
+msgstr "Volledige herroeping"
+
+#. translators: %s: customer name.
+#: includes/functions-emails.php:37 includes/functions-emails.php:172
+#, php-format
+msgid "Hi %s,"
+msgstr "Beste %s,"
+
+#: includes/functions-emails.php:41
+msgid "We have received your withdrawal request with the following details:"
+msgstr "Wij hebben uw herroepingsverzoek met de volgende gegevens ontvangen:"
+
+#: includes/functions-emails.php:46
+msgid "We will review the request and confirm next steps within 24 hours. If you do not hear from us, please reply to this email."
+msgstr "Wij beoordelen het verzoek en bevestigen de vervolgstappen binnen 24 uur. Als u niets van ons hoort, beantwoord dan deze e-mail."
+
+#. translators: %s: site name.
+#: includes/functions-emails.php:50 includes/functions-emails.php:190
+#, php-format
+msgid "Thanks, the %s team"
+msgstr "Met vriendelijke groet, het team van %s"
+
+#. translators: 1: site name, 2: order number.
+#: includes/functions-emails.php:84
+#, php-format
+msgid "[%1$s] New withdrawal request — order %2$s"
+msgstr "[%1$s] Nieuw herroepingsverzoek — bestelling %2$s"
+
+#: includes/functions-emails.php:90
+msgid "Partial withdrawal"
+msgstr "Gedeeltelijke herroeping"
+
+#: includes/functions-emails.php:96
+msgid "A new withdrawal request has just been submitted."
+msgstr "Er is zojuist een nieuw herroepingsverzoek ingediend."
+
+#: includes/functions-emails.php:103
+msgid "Details:"
+msgstr "Details:"
+
+#: includes/functions-emails.php:104
+msgid "(empty)"
+msgstr "(leeg)"
+
+#: includes/functions-emails.php:106
+msgid "View in admin:"
+msgstr "Bekijken in het beheer:"
+
+#. translators: %s: site name.
+#: includes/functions-emails.php:144
+#, php-format
+msgid "[%s] Your withdrawal request has been accepted"
+msgstr "[%s] Uw herroepingsverzoek is geaccepteerd"
+
+#. translators: %s: site name.
+#: includes/functions-emails.php:149
+#, php-format
+msgid "[%s] Your withdrawal request has been rejected"
+msgstr "[%s] Uw herroepingsverzoek is afgewezen"
+
+#. translators: %s: site name.
+#: includes/functions-emails.php:154
+#, php-format
+msgid "[%s] Your withdrawal has been completed"
+msgstr "[%s] Uw herroeping is afgerond"
+
+#: includes/functions-emails.php:160
+msgid "We have accepted your withdrawal request. We will proceed with the refund according to the legal deadline."
+msgstr "Wij hebben uw herroepingsverzoek geaccepteerd. Wij gaan over tot terugbetaling binnen de wettelijke termijn."
+
+#: includes/functions-emails.php:161
+msgid "We have reviewed your withdrawal request and unfortunately we cannot accept it."
+msgstr "Wij hebben uw herroepingsverzoek beoordeeld en kunnen het helaas niet accepteren."
+
+#: includes/functions-emails.php:162
+msgid "Your withdrawal has been processed and the refund issued. The funds may take a few business days to appear in your account."
+msgstr "Uw herroeping is verwerkt en de terugbetaling is uitgevoerd. Het kan enkele werkdagen duren voordat het bedrag op uw rekening verschijnt."
+
+#: includes/functions-emails.php:183
+msgid "Additional information from our team:"
+msgstr "Aanvullende informatie van ons team:"
+
+#. translators: 1: order number, 2: customer name.
+#: includes/functions-handler.php:71
+#, php-format
+msgid "Order %1$s — %2$s"
+msgstr "Bestelling %1$s — %2$s"
+
+#: includes/admin/metaboxes.php:54
+msgid "Submitted at (UTC)"
+msgstr "Ingediend op (UTC)"
+
+#: includes/admin/metaboxes.php:55
+msgid "Receipt hash (SHA-256)"
+msgstr "Ontvangsthash (SHA-256)"
+
+#: includes/admin/metaboxes.php:79
+msgid "Article 16 exclusions detected in this order"
+msgstr "Uitsluitingen op grond van artikel 16 aangetroffen in deze bestelling"
+
+#: includes/admin/metaboxes.php:91
+msgid "These items were flagged as excluded from the right of withdrawal at the time the request was submitted. Review manually before accepting or rejecting; a partial withdrawal over the rest of the order may still be valid."
+msgstr "Deze artikelen waren gemarkeerd als uitgesloten van het herroepingsrecht op het moment dat het verzoek werd ingediend. Beoordeel het verzoek handmatig voordat u het accepteert of afwijst; een gedeeltelijke herroeping voor de rest van de bestelling kan nog steeds geldig zijn."
+
+#: includes/functions-emails.php
+msgid "Receipt verification code (keep this email as proof of submission):"
+msgstr "Verificatiecode van de ontvangst (bewaar deze e-mail als bewijs van indiening):"
+
+#: includes/functions-emails.php
+msgid "⚠ The order contains items flagged as excluded from the right of withdrawal (Article 16):"
+msgstr "⚠ De bestelling bevat artikelen die zijn gemarkeerd als uitgesloten van het herroepingsrecht (artikel 16):"
+
+#: includes/functions-emails.php
+msgid "Review manually before accepting or rejecting. A partial withdrawal over non-excluded items may still be valid."
+msgstr "Beoordeel handmatig voordat u accepteert of afwijst. Een gedeeltelijke herroeping voor niet-uitgesloten artikelen kan nog steeds geldig zijn."
+
+#: includes/functions-settings.php
+msgid "Eligible order statuses"
+msgstr "Geschikte bestelstatussen"
+
+#: includes/functions-settings.php
+msgid "Show withdrawal option for"
+msgstr "Herroepingsoptie tonen voor"
+
+#: includes/functions-settings.php
+msgid "Pick the WooCommerce order statuses for which the withdrawal button and email notice should be offered. The choice applies to both the \"My Account\" button and the notice injected into transactional emails. Unchecking every status disables the prompt without disabling the plugin."
+msgstr "Kies de WooCommerce-bestelstatussen waarvoor de herroepingsknop en de e-mailmelding moeten worden aangeboden. De keuze geldt voor zowel de knop in \"Mijn account\" als de melding in transactionele e-mails. Als u geen enkele status aanvinkt, wordt de melding uitgeschakeld zonder de plugin uit te schakelen."
+
+#: includes/functions-settings.php
+msgid "WooCommerce is not active, so there are no order statuses to choose from."
+msgstr "WooCommerce is niet actief, dus er zijn geen bestelstatussen om uit te kiezen."
+
+#: includes/functions-settings.php
+msgid "Order statuses eligible for withdrawal"
+msgstr "Bestelstatussen die in aanmerking komen voor herroeping"
+
+#: includes/functions-settings.php
+msgid "Defaults to Processing and Completed. Plugins that register additional statuses (e.g. shipping plugins) appear here automatically."
+msgstr "Standaard zijn dit In behandeling en Afgerond. Plugins die extra statussen registreren (bijv. verzendplugins) verschijnen hier automatisch."
+
+#: includes/functions-settings.php
+msgid "Withdrawal deadline"
+msgstr "Herroepingstermijn"
+
+#: includes/functions-settings.php
+msgid "Calculate deadline from"
+msgstr "Termijn berekenen vanaf"
+
+#: includes/functions-settings.php
+msgid "Grace days"
+msgstr "Extra dagen"
+
+#: includes/functions-settings.php
+msgid "EU Directive 2011/83 sets a 14-day withdrawal period. Some member states extend this baseline; use these settings to adjust the calculation if your jurisdiction or contract terms require it."
+msgstr "EU-richtlijn 2011/83 stelt een herroepingstermijn van 14 dagen vast. Sommige lidstaten verlengen deze basistermijn; gebruik deze instellingen om de berekening aan te passen als uw rechtsgebied of contractvoorwaarden dat vereisen."
+
+#: includes/functions-settings.php
+msgid "Order date (when the customer placed the order)"
+msgstr "Besteldatum (wanneer de klant de bestelling heeft geplaatst)"
+
+#: includes/functions-settings.php
+msgid "Completion date (when the WooCommerce order was marked as completed)"
+msgstr "Afrondingsdatum (wanneer de WooCommerce-bestelling als afgerond is gemarkeerd)"
+
+#: includes/functions-settings.php
+msgid "If you choose Completion date but the order is not yet completed, the plugin falls back to the order date."
+msgstr "Als u Afrondingsdatum kiest maar de bestelling nog niet is afgerond, valt de plugin terug op de besteldatum."
+
+#: includes/functions-settings.php
+msgid "days"
+msgstr "dagen"
+
+#: includes/functions-settings.php
+msgid "Extra days added on top of the 14-day legal minimum. Useful when you offer a longer return window than required."
+msgstr "Extra dagen bovenop het wettelijke minimum van 14 dagen. Handig als u een langere retourtermijn biedt dan wettelijk vereist."
+
+#: includes/functions-settings.php
+msgid "Article 16 exclusions"
+msgstr "Uitsluitingen op grond van artikel 16"
+
+#: includes/functions-settings.php
+msgid "Article 16 of EU Directive 2011/83 lists categories of goods exempted from the right of withdrawal: custom-made products, perishable goods, sealed digital content opened by the consumer, hygiene-sealed items, etc. Pick the WooCommerce categories that fit those exceptions, or mark individual products in the product editor under \"Excluded from right of withdrawal\". Withdrawal requests on orders containing excluded items are flagged for manual review — never auto-rejected, since a partial withdrawal over the rest of the order can still be valid."
+msgstr "Artikel 16 van EU-richtlijn 2011/83 somt categorieën goederen op die zijn uitgezonderd van het herroepingsrecht: op maat gemaakte producten, snel bederfelijke waren, verzegelde digitale inhoud die door de consument is geopend, om hygiënische redenen verzegelde artikelen, enz. Kies de WooCommerce-categorieën die onder die uitzonderingen vallen, of markeer afzonderlijke producten in de producteditor onder \"Uitgesloten van herroepingsrecht\". Herroepingsverzoeken voor bestellingen met uitgesloten artikelen worden gemarkeerd voor handmatige beoordeling — nooit automatisch afgewezen, omdat een gedeeltelijke herroeping voor de rest van de bestelling nog steeds geldig kan zijn."
+
+#: includes/functions-settings.php
+msgid "Excluded product categories"
+msgstr "Uitgesloten productcategorieën"
+
+#: includes/functions-settings.php
+msgid "WooCommerce is not active, so there are no product categories to choose from."
+msgstr "WooCommerce is niet actief, dus er zijn geen productcategorieën om uit te kiezen."
+
+#: includes/functions-settings.php
+msgid "Search categories to exclude…"
+msgstr "Zoek categorieën om uit te sluiten…"
+
+#: includes/functions-settings.php
+msgid "Type to search a product category and click it to add. Subcategories inherit the exclusion automatically. Changes are saved instantly."
+msgstr "Typ om een productcategorie te zoeken en klik erop om deze toe te voegen. Subcategorieën nemen de uitsluiting automatisch over. Wijzigingen worden direct opgeslagen."
+
+#. translators: %s: category name.
+#: includes/functions-exclusions.php
+#: includes/functions-settings.php
+#, php-format
+msgid "Remove %s from exclusions"
+msgstr "%s verwijderen uit uitsluitingen"
+
+#: includes/functions-exclusions.php
+msgid "Excluded from right of withdrawal"
+msgstr "Uitgesloten van herroepingsrecht"
+
+#: includes/functions-exclusions.php
+msgid "Tick this box if the product falls under one of the Article 16 exceptions of EU Directive 2011/83 (custom-made, perishable, sealed digital content opened by the consumer, etc.)."
+msgstr "Vink dit vakje aan als het product onder een van de uitzonderingen van artikel 16 van EU-richtlijn 2011/83 valt (op maat gemaakt, snel bederfelijk, verzegelde digitale inhoud die door de consument is geopend, enz.)."
+
+#. translators: %s: parent category name.
+#: includes/functions-exclusions.php
+#, php-format
+msgid "Inherited from the “%s” category, marked as excluded in EU Withdrawal settings. Remove the category from the exclusion list (or change the product's categories) to lift the exclusion."
+msgstr "Overgenomen van de categorie “%s”, die in de instellingen voor EU-herroeping als uitgesloten is gemarkeerd. Verwijder de categorie uit de uitsluitingslijst (of wijzig de categorieën van het product) om de uitsluiting op te heffen."
+
+#: includes/functions-exclusions.php
+msgid "Insufficient permissions."
+msgstr "Onvoldoende rechten."
+
+#: includes/functions-exclusions.php
+msgid "Invalid request."
+msgstr "Ongeldig verzoek."
+
+#: includes/functions-exclusions.php
+msgid "WooCommerce is not active."
+msgstr "WooCommerce is niet actief."
+
+#: includes/functions-exclusions.php
+msgid "Category not found."
+msgstr "Categorie niet gevonden."
+
+#: includes/functions-assets.php
+msgid "No matching categories."
+msgstr "Geen overeenkomende categorieën."
+
+#: includes/functions-cpt.php
+msgid "Edit withdrawal"
+msgstr "Herroeping bewerken"
+
+#: includes/functions-cpt.php
+msgid "New withdrawal"
+msgstr "Nieuwe herroeping"
+
+#: includes/functions-cpt.php
+msgid "View withdrawals"
+msgstr "Herroepingen bekijken"
+
+#: includes/functions-cpt.php
+msgid "Filter withdrawals list"
+msgstr "Lijst met herroepingen filteren"
+
+#: includes/functions-cpt.php
+msgid "Withdrawals list navigation"
+msgstr "Navigatie door de lijst met herroepingen"
+
+#: includes/functions-cpt.php
+msgid "Withdrawals list"
+msgstr "Lijst met herroepingen"
